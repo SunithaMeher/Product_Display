@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    
+/* home page */
+background: #FFFFFF;
+}
+.total_logo{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+  }
+  .logo{
+    width: auto;
+    height: 65px;
+  }
+  .brand-name{
+    padding:0px 20px ;
+    color:#02696D;
+    font-size: 36px;
+    width: 500px;
+    height: 68px;
+    left: 115px;
+    top: calc(50% - 68px/2 - 1926px);
+  }
+.btn{
+    background: #02696D;
+    border: #02696D;
+    border-left: 50px;
+    margin-top: 7px;
+    color: white;
+}
+
+  .straw{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 70px;
+  }
+  .straw_img{
+      max-width: 100%;
+      height: auto;
+  }
+  .about{
+      padding: 50px;
+    background: #b2e1e2;
+      padding-left: 20px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+.upper-nav{
+    justify-content: end;
+    display:flex;
+}
+.upper-nav a{
+    background: transparent;
+    text-decoration: none;
+    
+    padding: 20px;
+    color: black;
+}
+.upper-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;    
+}
+/*
+.contact{
+    width: 234px;
+    height: 66px;
+    left: 1206px;
+    top: 37px;
+    bottom:24px;
+}
+*/
+
+.background{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.banner_img{
+    background: #039497;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner-heading{
+background: #039497;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-20%, -50%);
+    text-align: center;
+    color: black;
+    font-size: 2vw;
+    
+}
+
+/*
+.intro{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(102, 197, 199, 0.5);
+    left: 0px;
+    top: 827px;
+}
+.intro > div{
+    padding: 30px;
+}
+
+
+
+  .intro > img{
+    height: 588px;
+    width: 720px;
+    left: 727px;
+    top: 827px;
+    align-content: right;
+  }
+    */
+.intro-para{
+    font-size: 1.5vw;
+    color: rgb(90, 89, 89);
+    line-height: 1.5em;
+
+  }
+  .intro-heading{
+    
+    padding-bottom: 20px;
+    color: #02575A;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+  }
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+.grocery-image{
+    display:flex;
+    max-width: 100%;
+
+}
+.citrus .melons .Berries .leafy .roots .allium{
+    padding-left: 60px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    flex: 1 29.3333333%;
+
+}
+.grocery-info{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.grocery-info a{    
+    text-decoration: none;
+    font-family: "Raleway";
+    font-size: 34px ;
+    color:#02696D;
+    }
+h6{
+        font-family:"Raleway";
+        font-size:24px;
+        color: #02B9BD;
+        margin-bottom: 40px;
+
+    }
+
+/*
+.upper-footer{
+    align-items:center;
+    margin-top: 51px;
+}
+.logo-footer{
+    width:88px;
+    height:70px;
+}
+.brand-name-footer{
+    font-size: 64px bolder;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.middle-footer ul{
+    display: flex;
+    font-size:24px;
+    justify-content:space-around;
+    color: #02696D;
+}
+.lower-footer{
+    display:flex;
+    font-size: 20px;
+    justify-content:center;
+    font-display:#02696D;
+}
+*/
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background: #a9f2d8;
+}
+
+.upper-footer{
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo-footer{
+    background: transparent;
+    width:75px;
+    height:70px;
+}
+.brand-name-footer{
+    background: transparent;
+    color: #02696D;
+    font-size: 64px ;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.middle-footer ul{
+    background: transparent;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size:24px;
+    justify-content:space-around;
+    color: #02696D;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.middle-footer a{
+    background: #a9f2d8;
+    text-decoration: none;
+    color: #02696D;
+
+}
+
+.lower-footer ul{
+    background: #a9f2d8;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content:center;
+    font-display:#02696D;
+    padding:20px;
+    list-style-type: none;
+}
+.lower-footer a{
+    background: transparent;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+.copyright{
+    margin: 8px;
+    font-weight: bold;
+    text-align: center;
+}
